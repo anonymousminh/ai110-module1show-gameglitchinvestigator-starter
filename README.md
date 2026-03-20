@@ -26,8 +26,13 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
++ The game want the player to guess the right number that they given before 
 - [ ] Detail which bugs you found.
++ The bugs I found was the logic behind the hint when a player guess the number that is less than the secret number it should says "GO HIGHER" but it said "GO LOWER", and vice versa.
++ The second bugs I found was the range for each difficulty is default to be 1 to 100 
 - [ ] Explain what fixes you applied.
++ For the first bug, I changed the string "GO HIGHER" after "Too High" to "GO LOWER, and vice versa
++ For the second bug, I changed the random.randint(1, 100) -> random.randint(low, high)
 
 ## 📸 Demo
 
@@ -35,4 +40,4 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 🚀 Stretch Features
 
-- [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
+- [![alt text](challenge4.png)] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
